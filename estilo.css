@@ -419,6 +419,20 @@ html{
     0%{width: 0%;}
     100%{width: 94%;}
 }
+/* Estilos para las barras de idiomas */
+.skills .skill .ingles { width: 0%; animation: 2s ingles forwards; }
+.skills .skill .espanol { width: 0%; animation: 2s espanol forwards; }
+.skills .skill .frances { width: 0%; animation: 2s frances forwards; }
+
+@keyframes ingles { 0% { width: 0%; } 100% { width: 80%; } } /* B2 */
+@keyframes espanol { 0% { width: 0%; } 100% { width: 100%; } } /* Nativo */
+@keyframes frances { 0% { width: 0%; } 100% { width: 40%; } } /* A2 */
+
+/* Estilos para los niveles de idioma */
+.skills .skill .barra-skill span {
+    font-size: 12px;
+    font-weight: bold;
+}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
