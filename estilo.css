@@ -122,12 +122,12 @@ html{
     padding: 20px 0;
 
 }
-.sobremi h4{
+.sobremi h4 {
     font-size: 20px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-
+    color: #1CB698; /* Nuevo color de texto añadido */
 }
 .sobremi .contenido-seccion p{
     font: 18px;
