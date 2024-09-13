@@ -276,11 +276,11 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .matlab{
+.skills .skill .MATLAB{
     width: 0%;
-    animation: 2s matlab forwards;
+    animation: 2s MATLAB forwards;
 }
-@keyframes matlab {
+@keyframes MATLAB {
     0%{width: 0%;}
     100%{width: 90%;}
 }
