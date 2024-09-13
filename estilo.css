@@ -713,26 +713,23 @@ footer .arriba{
     }
     /* Actualizar estas reglas en tu archivo CSS */
 
-    .sobremi .contenido-seccion .centered-text {
-        /* ... propiedades existentes ... */
+    .cta-centrado {
+        text-align: center;
+        margin: 30px 0;
         width: 100%;
-        display: flex;
-        justify-content: center;
     }
-
-    .sobremi .contenido-seccion .centered-text span {
+    
+    .cta-centrado span {
         display: inline-block;
-        max-width: 100%;
-        color: #1CB698;
+        color: #1CB698; /* Mantiene el color verde que ya estás usando */
         font-weight: bold;
         font-size: 1.2em;
+        max-width: 80%; /* Ajusta este valor según necesites */
     }
-
-    /* Asegurarse de que el contenedor padre permita el centrado */
-    .sobremi .contenido-seccion {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    
+    /* Si necesitas que sea más específico para sobrescribir otros estilos */
+    .sobremi .contenido-seccion .cta-centrado {
+        text-align: center !important;
     }
     
 }
