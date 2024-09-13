@@ -711,4 +711,18 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+    .centered-text {
+        text-align: center;
+        margin: 30px 0;
+        padding: 0 15px;
+    }
+    
+    .centered-text span {
+        display: inline-block;
+        max-width: 80%;
+        color: #1CB698; /* Color verde que se usa en otras partes del sitio */
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
 }
