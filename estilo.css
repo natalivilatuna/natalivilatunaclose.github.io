@@ -129,6 +129,12 @@ html{
     padding: 20px 0;
     color: #1CB698;
 }
+.sobremi h5{
+    font-size: 20px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
 .sobremi .contenido-seccion p{
     font: 18px;
     line-height: 22px;
