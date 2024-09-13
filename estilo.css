@@ -288,43 +288,91 @@ html{
 }
 @keyframes matlab {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 85%;}
 }
 
-.skills .skill .htmlcss{
+.skills .skill .python{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s python forwards;
 }
-@keyframes htmlcss {
+@keyframes python {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .illustrator{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s illustrator forwards;
 }
-@keyframes photoshop {
+@keyframes illustrator {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 60%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .coreldraw{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s coreldraw forwards;
 }
-@keyframes wordpress {
+@keyframes coreldraw {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 60%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .solidworks{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s solidworks forwards;
 }
-@keyframes drupal {
+@keyframes solidworks {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 80%;}
+}
+.skills .skill .ansys{
+    width: 0%;
+    animation: 2s ansys forwards;
+}
+@keyframes ansys {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .skill .labview{
+    width: 0%;
+    animation: 2s labview forwards;
+}
+@keyframes labview {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .arduino{
+    width: 0%;
+    animation: 2s arduino forwards;
+}
+@keyframes arduino {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+.skills .skill .iot{
+    width: 0%;
+    animation: 2s iot forwards;
+}
+@keyframes iot {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .cadcam{
+    width: 0%;
+    animation: 2s cadcam forwards;
+}
+@keyframes cadcam {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .plc{
+    width: 0%;
+    animation: 2s plc forwards;
+}
+@keyframes plc {
+    0%{width: 0%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .comunicacion{
