@@ -714,10 +714,10 @@ footer .arriba{
     /* Actualizar estas reglas en tu archivo CSS */
 
     .sobremi .contenido-seccion .centered-text {
-        text-align: center;
-        margin: 30px auto;
-        padding: 0 15px;
-        max-width: 800px; /* Ajusta este valor según necesites */
+        /* ... propiedades existentes ... */
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .sobremi .contenido-seccion .centered-text span {
