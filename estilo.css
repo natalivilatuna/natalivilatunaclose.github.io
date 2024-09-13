@@ -711,19 +711,28 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+    /* Actualizar estas reglas en tu archivo CSS */
+
     .sobremi .contenido-seccion .centered-text {
         text-align: center;
         margin: 30px auto;
         padding: 0 15px;
         max-width: 800px; /* Ajusta este valor según necesites */
     }
-    
+
     .sobremi .contenido-seccion .centered-text span {
         display: inline-block;
         max-width: 100%;
         color: #1CB698;
         font-weight: bold;
         font-size: 1.2em;
+    }
+
+    /* Asegurarse de que el contenedor padre permita el centrado */
+    .sobremi .contenido-seccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
 }
