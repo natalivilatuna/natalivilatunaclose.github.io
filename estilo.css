@@ -445,29 +445,29 @@ html{
     width: 100%;
     padding: 0 20px;
 }
-.idiomas .idioma {
+.idiomas .skill {
     margin-bottom: 15px;
 }
-.idiomas .idioma span {
+.idiomas .skill span {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
-.idiomas .idioma .barra-idioma {
+.idiomas .skill .barra-skill {
     height: 8px;
     width: 80%;
     background-color: #131517;
     position: relative;
     margin-bottom: 30px;
 }
-.idiomas .idioma .progreso {
+.idiomas .skill .progreso {
     background-color: #1CB698;
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
 }
-.idiomas .idioma .barra-idioma span {
+.idiomas .skill .barra-skill span {
     position: absolute;
     height: 40px;
     width: 40px;
@@ -479,14 +479,13 @@ html{
     right: -15px;
     font-size: 14px;
 }
-.idiomas .idioma .ingles { width: 0%; animation: 2s ingles forwards; }
-.idiomas .idioma .espanol { width: 0%; animation: 2s espanol forwards; }
-.idiomas .idioma .frances { width: 0%; animation: 2s frances forwards; }
+.idiomas .skill .ingles { width: 0%; animation: 2s ingles forwards; }
+.idiomas .skill .espanol { width: 0%; animation: 2s espanol forwards; }
+.idiomas .skill .frances { width: 0%; animation: 2s frances forwards; }
 
 @keyframes ingles { 0% { width: 0%; } 100% { width: 80%; } } /* B2 */
 @keyframes espanol { 0% { width: 0%; } 100% { width: 100%; } } /* Nativo */
 @keyframes frances { 0% { width: 0%; } 100% { width: 40%; } } /* A2 */
-
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
