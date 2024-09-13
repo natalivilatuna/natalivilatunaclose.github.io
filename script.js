@@ -15,10 +15,14 @@ function seleccionar(){
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
+
 //Funcion que aplica las animaciones de las habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");
+    var idiomas = document.getElementById("idiomas");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
+    var distancia_idiomas = window.innerHeight - idiomas.getBoundingClientRect().top;
+
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("matlab");
@@ -37,14 +41,17 @@ function efectoHabilidades(){
         habilidades[13].classList.add("creatividad");
         habilidades[14].classList.add("dedicacion");
         habilidades[15].classList.add("proyect");
-        habilidades[16].classList.add("ingles");
-        habilidades[17].classList.add("espanol");
-        habilidades[18].classList.add("frances");
+    }
+
+    if(distancia_idiomas >= 300){
+        let habilidades_idiomas = document.querySelectorAll("#idiomas .progreso");
+        habilidades_idiomas[0].classList.add("ingles");
+        habilidades_idiomas[1].classList.add("espanol");
+        habilidades_idiomas[2].classList.add("frances");
     }
 }
-
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
-} 
+}
