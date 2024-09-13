@@ -445,29 +445,29 @@ html{
     width: 100%;
     padding: 0 20px;
 }
-.idiomas .skill {
+.idiomas .idioma {
     margin-bottom: 15px;
 }
-.idiomas .skill span {
+.idiomas .idioma span {
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
-.idiomas .skill .barra-skill {
+.idiomas .idioma .barra-idioma {
     height: 8px;
     width: 80%;
     background-color: #131517;
     position: relative;
     margin-bottom: 30px;
 }
-.idiomas .skill .progreso {
+.idiomas .idioma .progreso {
     background-color: #1CB698;
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
 }
-.idiomas .skill .barra-skill span {
+.idiomas .idioma .barra-idioma span {
     position: absolute;
     height: 40px;
     width: 40px;
@@ -479,9 +479,9 @@ html{
     right: -15px;
     font-size: 14px;
 }
-.idiomas .skill .ingles { width: 0%; animation: 2s ingles forwards; }
-.idiomas .skill .espanol { width: 0%; animation: 2s espanol forwards; }
-.idiomas .skill .frances { width: 0%; animation: 2s frances forwards; }
+.idiomas .idioma .ingles { width: 0%; animation: 2s ingles forwards; }
+.idiomas .idioma .espanol { width: 0%; animation: 2s espanol forwards; }
+.idiomas .idioma .frances { width: 0%; animation: 2s frances forwards; }
 
 @keyframes ingles { 0% { width: 0%; } 100% { width: 80%; } } /* B2 */
 @keyframes espanol { 0% { width: 0%; } 100% { width: 100%; } } /* Nativo */
