@@ -59,7 +59,7 @@ function descargarCV() {
     link.href = pdfUrl;
     
     // Establece el nombre del archivo para la descarga
-    link.download = 'Hipster_CV.pdf';
+    link.download = 'file:///D:/des/PAPELES_TRABAJO/Hipster_CV.pdf';
     
     // Añade el enlace al documento y simula un clic
     document.body.appendChild(link);
