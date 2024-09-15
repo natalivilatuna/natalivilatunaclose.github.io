@@ -50,7 +50,24 @@ function efectoHabilidades(){
         habilidades_idiomas[2].classList.add("frances");
     }
 }
-
+function descargarCV() {
+    // Reemplaza 'ruta/al/curriculum.pdf' con la ruta real a tu archivo PDF
+    var pdfUrl = 'ruta/al/curriculum.pdf';
+    
+    // Crea un elemento <a> temporal
+    var link = document.createElement('a');
+    link.href = pdfUrl;
+    
+    // Establece el nombre del archivo para la descarga
+    link.download = 'Curriculum.pdf';
+    
+    // Añade el enlace al documento y simula un clic
+    document.body.appendChild(link);
+    link.click();
+    
+    // Limpia el elemento creado
+    document.body.removeChild(link);
+  }
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
