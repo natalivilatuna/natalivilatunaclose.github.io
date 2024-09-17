@@ -68,32 +68,7 @@ function descargarCV() {
     // Limpia el elemento creado
     document.body.removeChild(link);
   }
-const carousel = document.querySelector('.carousel-inner');
-const items = document.querySelectorAll('.carousel-item');
-const prevBtn = document.querySelector('.prev');
-const nextBtn = document.querySelector('.next');
-let currentIndex = 0;
 
-function showItem(index) {
-    carousel.style.transform = `translateX(-${index * 100}%)`;
-}
-
-function nextItem() {
-    currentIndex = (currentIndex + 1) % items.length;
-    showItem(currentIndex);
-}
-
-function prevItem() {
-    currentIndex = (currentIndex - 1 + items.length) % items.length;
-    showItem(currentIndex);
-}
-
-nextBtn.addEventListener('click', nextItem);
-prevBtn.addEventListener('click', prevItem);
-
-// Auto-scroll
-setInterval(nextItem, 5000);
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
 }
