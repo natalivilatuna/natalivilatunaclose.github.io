@@ -68,6 +68,7 @@ function descargarCV() {
     // Limpia el elemento creado
     document.body.removeChild(link);
   }
+  
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();
